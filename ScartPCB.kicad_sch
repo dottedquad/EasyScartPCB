@@ -3,13 +3,14 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7e18369d-2912-4c95-9187-3289e1f320ce")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "EasyScartPCB")
-		(date "2023-08-10")
+		(date "2026-03-17")
 		(rev "1.0")
 		(company "dottedquad")
-		(comment 1 "A PCB for console SCART connector")
+		(comment 1 "An easier PCB for console SCART connector")
+		(comment 2 "More appropriate for US SCART modded TVs")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G17"
@@ -1885,7 +1886,7 @@
 	)
 	(text "Configuration jumpers"
 		(exclude_from_sim no)
-		(at 124.46 140.97 0)
+		(at 16.51 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,7 +1897,7 @@
 	)
 	(text "Power flags"
 		(exclude_from_sim no)
-		(at 254 142.24 0)
+		(at 236.22 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1905,7 +1906,7 @@
 		)
 		(uuid "26626785-93da-490e-aefe-f3dca7139baa")
 	)
-	(text "Descoupling"
+	(text "Decoupling"
 		(exclude_from_sim no)
 		(at 76.2 91.44 0)
 		(effects
@@ -1961,13 +1962,13 @@
 		(uuid "ed506a4b-9894-4397-b46d-5199aff48356")
 	)
 	(junction
-		(at 187.96 55.88)
+		(at 177.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ce99513-c57a-457c-96a6-e0fae11d7191")
 	)
 	(junction
-		(at 140.97 85.09)
+		(at 138.43 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e245606-906c-4651-833b-a5f7c9809bf7")
@@ -1979,7 +1980,7 @@
 		(uuid "438f1b90-362a-4b75-a3fe-47e7f0de3a47")
 	)
 	(junction
-		(at 223.52 55.88)
+		(at 210.82 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "465b4a6d-3e7b-4085-a000-955655006a14")
@@ -1997,10 +1998,16 @@
 		(uuid "6945deef-a658-408c-8ab5-5427d022ae04")
 	)
 	(junction
-		(at 259.08 55.88)
+		(at 245.11 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69e7d409-e778-4d79-a929-5ca73634ec81")
+	)
+	(junction
+		(at 87.63 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa4e527-e9b4-4015-8716-18329730b120")
 	)
 	(junction
 		(at 87.63 62.23)
@@ -2015,7 +2022,7 @@
 		(uuid "7c561530-ada0-4381-9ddf-d9c2bcc7c4f0")
 	)
 	(junction
-		(at 140.97 59.69)
+		(at 138.43 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f16dc20-b9c0-471b-81f5-a27aa9312407")
@@ -2070,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 54.61) (xy 187.96 55.88)
+			(xy 177.8 54.61) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 59.69) (xy 140.97 66.04)
+			(xy 138.43 59.69) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 52.07) (xy 140.97 50.8)
+			(xy 138.43 52.07) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 163.83) (xy 280.67 163.83)
+			(xy 236.22 163.83) (xy 262.89 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 64.77) (xy 223.52 73.66)
+			(xy 210.82 64.77) (xy 210.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2167,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 142.24) (xy 124.46 142.24)
+			(xy 64.77 140.97) (xy 16.51 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 156.21) (xy 273.05 152.4)
+			(xy 255.27 156.21) (xy 255.27 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 55.88) (xy 194.31 55.88)
+			(xy 177.8 55.88) (xy 184.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 55.88) (xy 265.43 57.15)
+			(xy 251.46 55.88) (xy 251.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +2297,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 142.24) (xy 124.46 189.23)
+			(xy 16.51 140.97) (xy 16.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 229.87 55.88)
+			(xy 210.82 55.88) (xy 217.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 55.88) (xy 265.43 55.88)
+			(xy 245.11 55.88) (xy 251.46 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +2357,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 143.51) (xy 254 143.51)
+			(xy 262.89 143.51) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 189.23) (xy 172.72 142.24)
+			(xy 64.77 187.96) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 140.97 85.09)
+			(xy 138.43 86.36) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 55.88) (xy 259.08 57.15)
+			(xy 245.11 55.88) (xy 245.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 162.56 66.04)
+			(xy 160.02 59.69) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 59.69) (xy 162.56 59.69)
+			(xy 138.43 59.69) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 54.61) (xy 259.08 55.88)
+			(xy 245.11 54.61) (xy 245.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 55.88) (xy 194.31 57.15)
+			(xy 184.15 55.88) (xy 184.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 64.77) (xy 187.96 73.66)
+			(xy 177.8 64.77) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2557,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 143.51) (xy 254 163.83)
+			(xy 236.22 143.51) (xy 236.22 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 140.97 73.66)
+			(xy 138.43 76.2) (xy 138.43 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 55.88) (xy 229.87 57.15)
+			(xy 217.17 55.88) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 223.52 57.15)
+			(xy 210.82 55.88) (xy 210.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2650,7 +2657,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 135.89) (xy 280.67 17.78)
+			(xy 262.89 135.89) (xy 262.89 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2697,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 135.89) (xy 280.67 135.89)
+			(xy 124.46 135.89) (xy 262.89 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 147.32 85.09)
+			(xy 138.43 85.09) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 187.96 85.09)
+			(xy 177.8 81.28) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2728,9 +2735,19 @@
 		)
 		(uuid "c4d3e5c7-ec3a-4ddd-a79b-abc01754da9b")
 	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d046cf-405d-44d4-a3a8-1d40ec1c8be4")
+	)
 	(polyline
 		(pts
-			(xy 280.67 163.83) (xy 280.67 143.51)
+			(xy 262.89 163.83) (xy 262.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 81.28) (xy 259.08 85.09)
+			(xy 245.11 81.28) (xy 245.11 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 55.88) (xy 187.96 57.15)
+			(xy 177.8 55.88) (xy 177.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2770,7 +2787,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 189.23) (xy 172.72 189.23)
+			(xy 16.51 187.96) (xy 64.77 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2797,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 17.78) (xy 280.67 17.78)
+			(xy 124.46 17.78) (xy 262.89 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 81.28) (xy 223.52 85.09)
+			(xy 210.82 81.28) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2810,6 +2827,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 77.47) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e097477d-b5cd-4e85-b112-3238a3eaa6e0")
+	)
+	(wire
+		(pts
 			(xy 24.13 38.1) (xy 24.13 43.18)
 		)
 		(stroke
@@ -2820,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 152.4) (xy 261.62 156.21)
+			(xy 243.84 152.4) (xy 243.84 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 86.36)
+			(xy 144.78 85.09) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 64.77) (xy 259.08 73.66)
+			(xy 245.11 64.77) (xy 245.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 83.82)
+			(xy 138.43 85.09) (xy 138.43 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 54.61) (xy 223.52 55.88)
+			(xy 210.82 54.61) (xy 210.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2937,7 @@
 	)
 	(global_label "RED"
 		(shape output)
-		(at 187.96 85.09 270)
+		(at 177.8 85.09 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2920,7 +2947,7 @@
 		)
 		(uuid "024a1e5f-8cd9-450d-a603-996773fc5aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 85.09 0)
+			(at 177.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2956,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 187.8806 91.1921 90)
+			(at 177.7206 91.1921 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3030,7 @@
 	)
 	(global_label "RGB_BLANKING"
 		(shape output)
-		(at 147.32 170.18 270)
+		(at 39.37 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3013,7 +3040,7 @@
 		)
 		(uuid "1174192f-52e6-438e-8240-839dc81aba0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 170.18 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3049,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 147.2406 186.5631 90)
+			(at 39.2906 185.2931 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3061,7 @@
 	)
 	(global_label "AR"
 		(shape passive)
-		(at 137.16 162.56 270)
+		(at 29.21 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3044,7 +3071,7 @@
 		)
 		(uuid "15d57cb9-6ca2-42aa-a3f2-dd762b1d202d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 162.56 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3080,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 137.0806 167.3317 90)
+			(at 29.1306 166.0617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3154,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 259.08 54.61 90)
+		(at 245.11 54.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3137,7 +3164,7 @@
 		)
 		(uuid "22ae2eba-98f8-447a-b53b-0cf75fa7331b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 54.61 0)
+			(at 245.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3173,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 259.0006 50.9269 90)
+			(at 245.0306 50.9269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3185,7 @@
 	)
 	(global_label "R"
 		(shape input)
-		(at 187.96 54.61 90)
+		(at 177.8 54.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3168,7 +3195,7 @@
 		)
 		(uuid "2ba831c4-db26-4676-b49d-f080a8f74306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 54.61 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3204,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 187.8806 50.9269 90)
+			(at 177.7206 50.9269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3278,7 @@
 	)
 	(global_label "AL"
 		(shape passive)
-		(at 137.16 152.4 90)
+		(at 29.21 151.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3261,7 +3288,7 @@
 		)
 		(uuid "3bc3a97c-1813-4b2c-ba69-52ed36faf01d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 152.4 0)
+			(at 29.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3297,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 137.0806 147.8702 90)
+			(at 29.1306 146.6002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3340,7 @@
 	)
 	(global_label "BLUE"
 		(shape output)
-		(at 259.08 85.09 270)
+		(at 245.11 85.09 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3323,7 +3350,7 @@
 		)
 		(uuid "3fcdeb6e-8f12-4838-8f11-88ebe21570c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 85.09 0)
+			(at 245.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3359,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 259.0006 92.2807 90)
+			(at 245.0306 92.2807 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3464,7 @@
 	)
 	(global_label "GREEN"
 		(shape output)
-		(at 223.52 85.09 270)
+		(at 210.82 85.09 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3447,7 +3474,7 @@
 		)
 		(uuid "713fa0bd-8341-4f03-be17-75e014963c08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 85.09 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3483,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 223.4406 93.6717 90)
+			(at 210.7406 93.6717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3495,7 @@
 	)
 	(global_label "C_SYNC"
 		(shape input)
-		(at 140.97 50.8 90)
+		(at 138.43 50.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3478,7 +3505,7 @@
 		)
 		(uuid "74990ddc-5a0a-4a17-b20a-63c614e2a844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 50.8 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3514,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 140.8906 41.2507 90)
+			(at 138.3506 41.2507 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3588,7 @@
 	)
 	(global_label "G"
 		(shape input)
-		(at 223.52 54.61 90)
+		(at 210.82 54.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3571,7 +3598,7 @@
 		)
 		(uuid "a1e502dd-841b-4818-9747-dc173800bea6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 54.61 0)
+			(at 210.82 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3607,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 223.4406 50.9269 90)
+			(at 210.7406 50.9269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3650,7 @@
 	)
 	(global_label "C_SYNC"
 		(shape output)
-		(at 160.02 162.56 270)
+		(at 52.07 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3633,7 +3660,7 @@
 		)
 		(uuid "d6aad7eb-d551-4b28-b2eb-5552bb514692")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 162.56 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3669,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 160.0994 172.1093 90)
+			(at 52.1494 170.8393 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3681,7 @@
 	)
 	(global_label "COMPOSITE_SYNC"
 		(shape output)
-		(at 140.97 86.36 270)
+		(at 138.43 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3664,7 +3691,7 @@
 		)
 		(uuid "d7d07b70-20ac-4d73-9d84-e9449f32f2bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 86.36 0)
+			(at 138.43 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3700,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 140.8906 105.2226 90)
+			(at 138.3506 105.2226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3712,7 @@
 	)
 	(global_label "C"
 		(shape passive)
-		(at 160.02 152.4 90)
+		(at 52.07 151.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3695,7 +3722,7 @@
 		)
 		(uuid "e11f92bd-2142-4078-b064-80302300cd5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 152.4 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3731,7 @@
 			)
 		)
 		(property "Riferimenti inter-foglio" "${INTERSHEET_REFS}"
-			(at 159.9406 148.7169 90)
+			(at 51.9906 147.4469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 73.66 0)
+		(at 87.63 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3787,7 +3814,7 @@
 		(fields_autoplaced yes)
 		(uuid "0065696a-9ba3-4f59-8964-fc354dbccad2")
 		(property "Reference" "#PWR0110"
-			(at 87.63 80.01 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 78.74 0)
+			(at 87.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 73.66 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 73.66 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 73.66 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3870,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 60.96 0)
+		(at 251.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3851,7 +3878,7 @@
 		(dnp no)
 		(uuid "0506067b-3dff-42f9-b8fc-bc538397833b")
 		(property "Reference" "RB2"
-			(at 266.7 59.69 0)
+			(at 252.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3887,7 @@
 			)
 		)
 		(property "Value" "DNC"
-			(at 266.7 62.23 0)
+			(at 252.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 263.652 60.96 90)
+			(at 249.682 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 60.96 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,16 +3913,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 265.43 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Royalohm"
-			(at 265.43 60.96 0)
+		(property "Manufacturer" ""
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3932,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 265.43 60.96 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,17 +3940,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 265.43 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 265.43 60.96 0)
+		(property "Package" "0805"
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3966,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 73.66 0)
+		(at 160.02 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3956,7 +3975,7 @@
 		(fields_autoplaced yes)
 		(uuid "05eb965d-0598-4c2b-84f7-49ff3baa3274")
 		(property "Reference" "#PWR0119"
-			(at 162.56 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 78.74 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 73.66 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 73.66 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 64.77 0)
+		(at 217.17 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4096,7 +4115,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ea1353e-4398-45b3-bcf0-79db1c0c207c")
 		(property "Reference" "#PWR0117"
-			(at 229.87 71.12 0)
+			(at 217.17 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 69.85 0)
+			(at 217.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 64.77 0)
+			(at 217.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 64.77 0)
+			(at 217.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 64.77 0)
+			(at 217.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4246,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 166.37 0)
+		(at 39.37 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4236,7 +4255,7 @@
 		(fields_autoplaced yes)
 		(uuid "14f48eec-653f-4ecd-ae34-36d81ea06e44")
 		(property "Reference" "R9"
-			(at 149.86 165.0999 0)
+			(at 41.91 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4264,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 149.86 167.6399 0)
+			(at 41.91 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 145.542 166.37 90)
+			(at 37.592 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 166.37 0)
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,16 +4290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 147.32 166.37 0)
+		(property "Description" "100mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 180Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,8 +4299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "HP02WAF1800TCE"
-			(at 147.32 166.37 0)
+		(property "Manufacturer" ""
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,8 +4308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 180Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 147.32 166.37 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,8 +4317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 147.32 166.37 0)
+		(property "Package" "0805"
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 160.02 157.48 270)
+		(at 52.07 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4341,7 +4352,7 @@
 		(fields_autoplaced yes)
 		(uuid "16a50605-9bff-4cb4-8bd6-bfae384dde71")
 		(property "Reference" "JP3"
-			(at 162.56 157.4799 90)
+			(at 54.61 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4361,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 158.75 156.2101 90)
+			(at 50.8 154.9401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4371,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 160.02 157.48 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 157.48 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 157.48 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4397,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 160.02 157.48 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4422,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 259.08 77.47 0)
+		(at 245.11 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4420,7 +4431,7 @@
 		(fields_autoplaced yes)
 		(uuid "176e5a8a-e64d-4488-ba76-295aa04d25a6")
 		(property "Reference" "CB1"
-			(at 262.89 75.3109 0)
+			(at 248.92 75.3109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,8 +4439,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 262.89 77.8509 0)
+		(property "Value" "220uF"
+			(at 248.92 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4449,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 260.0452 81.28 0)
+			(at 246.0752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 77.47 0)
+			(at 245.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,8 +4466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 259.08 77.47 0)
+		(property "Description" "6.3V B-Package Tantalum Capacitor"
+			(at 245.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4492,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 261.62 152.4 0)
+		(at 243.84 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4490,7 +4501,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fa4df22-11ac-4fce-9127-548f659ca194")
 		(property "Reference" "#PWR0120"
-			(at 261.62 156.21 0)
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4510,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 147.32 0)
+			(at 243.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 152.4 0)
+			(at 243.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 152.4 0)
+			(at 243.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 152.4 0)
+			(at 243.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 60.96 0)
+		(at 245.11 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4554,7 +4565,7 @@
 		(dnp no)
 		(uuid "267cc215-7152-4f5b-8236-150b6cebc44c")
 		(property "Reference" "RB1"
-			(at 260.35 59.69 0)
+			(at 246.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4574,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 260.35 62.23 0)
+			(at 246.38 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4583,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 257.302 60.96 90)
+			(at 243.332 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 60.96 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,16 +4600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 259.08 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 259.08 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,8 +4609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 259.08 60.96 0)
+		(property "Manufacturer" ""
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,8 +4618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 259.08 60.96 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,8 +4627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 259.08 60.96 0)
+		(property "Package" "0805"
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 93.98 0)
+		(at 144.78 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5016,7 +5019,7 @@
 		(fields_autoplaced yes)
 		(uuid "492ceeab-317d-4500-ba97-ffb7b4c8cd7a")
 		(property "Reference" "#PWR0121"
-			(at 147.32 100.33 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 99.06 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 60.96 0)
+		(at 184.15 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5080,7 +5083,7 @@
 		(dnp no)
 		(uuid "4bdcf815-f2b6-4f8d-ab70-803d0927e0a7")
 		(property "Reference" "RR2"
-			(at 195.58 59.69 0)
+			(at 185.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5092,7 @@
 			)
 		)
 		(property "Value" "DNC"
-			(at 195.58 62.23 0)
+			(at 185.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5101,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 192.532 60.96 90)
+			(at 182.372 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 60.96 0)
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,16 +5118,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 194.31 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,8 +5127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 194.31 60.96 0)
+		(property "Manufacturer" ""
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,8 +5136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 194.31 60.96 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,8 +5145,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 194.31 60.96 0)
+		(property "Package" "0805"
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,34 +5170,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 261.62 156.21 180)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 106.68 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5437b4fa-5335-41fa-a1e5-24c977bf4ca3")
-		(property "Reference" "#FLG0101"
-			(at 261.62 158.115 0)
+		(uuid "513a9112-e587-4986-96ac-5addcbbd4887")
+		(property "Reference" "JI13"
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 109.728 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 261.62 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 156.21 0)
+		(property "Footprint" "Footprints:PAD1.5x1.5"
+			(at 106.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 156.21 0)
+			(at 106.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5216,81 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 156.21 0)
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f14030-1cac-4fb4-88d8-bc5ed74dce4a")
+		)
+		(instances
+			(project "ScartPCB"
+				(path "/7e18369d-2912-4c95-9187-3289e1f320ce"
+					(reference "JI13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 243.84 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5437b4fa-5335-41fa-a1e5-24c977bf4ca3")
+		(property "Reference" "#FLG0101"
+			(at 243.84 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 243.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5376,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 147.32 152.4 0)
+		(at 39.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5315,7 +5385,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b00190e-9414-4c4d-88f0-d09eb6728dc7")
 		(property "Reference" "#PWR0102"
-			(at 147.32 156.21 0)
+			(at 39.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5394,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 147.32 0)
+			(at 39.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 152.4 0)
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 152.4 0)
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 152.4 0)
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 223.52 77.47 0)
+		(at 210.82 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5445,7 +5515,7 @@
 		(fields_autoplaced yes)
 		(uuid "61593234-4413-493a-964a-2621517ba3a9")
 		(property "Reference" "CG1"
-			(at 227.33 75.3109 0)
+			(at 214.63 75.3109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,8 +5523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 227.33 77.8509 0)
+		(property "Value" "220uF"
+			(at 214.63 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5533,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 224.4852 81.28 0)
+			(at 211.7852 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 77.47 0)
+			(at 210.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,8 +5550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 223.52 77.47 0)
+		(property "Description" "6.3V B-Package Tantalum Capacitor"
+			(at 210.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5576,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 69.85 0)
+		(at 160.02 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5514,7 +5584,7 @@
 		(dnp no)
 		(uuid "63961443-505e-423d-a88f-212c7468531a")
 		(property "Reference" "R8"
-			(at 163.83 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5593,7 @@
 			)
 		)
 		(property "Value" "DNC"
-			(at 163.83 71.12 0)
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5602,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.782 69.85 90)
+			(at 158.242 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,15 +5620,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
-			(at 162.56 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5638,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 162.56 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,17 +5646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 162.56 69.85 0)
+		(property "Package" "0805"
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5672,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 187.96 77.47 0)
+		(at 177.8 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5619,7 +5681,7 @@
 		(fields_autoplaced yes)
 		(uuid "6529a21b-5751-40db-88a3-9f32898ff4c6")
 		(property "Reference" "CR1"
-			(at 191.77 75.3109 0)
+			(at 181.61 75.3109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,8 +5689,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 191.77 77.8509 0)
+		(property "Value" "220uF"
+			(at 181.61 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5699,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 188.9252 81.28 0)
+			(at 178.7652 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 77.47 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,8 +5716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 187.96 77.47 0)
+		(property "Description" "6.3V B-Package Tantalum Capacitor"
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 90.17 0)
+		(at 144.78 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5828,7 +5890,7 @@
 		(dnp no)
 		(uuid "6abdf6d6-ff3c-4d80-9147-5a68382eb42a")
 		(property "Reference" "RC2"
-			(at 148.59 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5899,7 @@
 			)
 		)
 		(property "Value" "DNC"
-			(at 148.59 91.44 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5908,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 145.542 90.17 90)
+			(at 143.002 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,15 +5926,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
-			(at 147.32 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5944,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 147.32 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,17 +5952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 147.32 90.17 0)
+		(property "Package" "0805"
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +5978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 64.77 0)
+		(at 184.15 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5933,7 +5987,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dc17089-35c2-4d9a-a23f-7a18836e584e")
 		(property "Reference" "#PWR0118"
-			(at 194.31 71.12 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 69.85 0)
+			(at 184.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 64.77 0)
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 64.77 0)
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 64.77 0)
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6043,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 64.77 0)
+		(at 251.46 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5998,7 +6052,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e243f24-2dd2-4266-aca6-9b6b7c098510")
 		(property "Reference" "#PWR0116"
-			(at 265.43 71.12 0)
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 69.85 0)
+			(at 251.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 64.77 0)
+			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 64.77 0)
+			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 64.77 0)
+			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 55.88 180)
+		(at 138.43 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6062,7 +6116,7 @@
 		(dnp no)
 		(uuid "74c28d19-2728-4ab5-9c99-b808ab27bc04")
 		(property "Reference" "R7"
-			(at 144.78 54.61 0)
+			(at 142.24 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6125,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 143.51 57.15 0)
+			(at 140.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6134,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.748 55.88 90)
+			(at 140.208 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 55.88 0)
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,16 +6151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 140.97 55.88 0)
+		(property "Description" "Thick Film Resistors - SMD 0805 1/16W 1% 0R T/R-10000"
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,8 +6160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 140.97 55.88 0)
+		(property "Manufacturer" ""
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,8 +6169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000 "
-			(at 140.97 55.88 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,8 +6178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 140.97 55.88 0)
+		(property "Package" "0805"
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6204,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 60.96 0)
+		(at 210.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6166,7 +6212,7 @@
 		(dnp no)
 		(uuid "8006d397-88f8-46ad-9623-99ec7662e015")
 		(property "Reference" "RG1"
-			(at 224.79 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6221,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 224.79 62.23 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6230,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 221.742 60.96 90)
+			(at 209.042 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 60.96 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,16 +6247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 223.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 223.52 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,8 +6256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 223.52 60.96 0)
+		(property "Manufacturer" ""
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,8 +6265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 223.52 60.96 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,8 +6274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 223.52 60.96 0)
+		(property "Package" "0805"
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,15 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAEGO"
+		(property "Description" "16V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6551,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0402KRX7R7BB104"
+		(property "Manufacturer" ""
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6560,7 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(property "Manufacturer_Part_Number" ""
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6569,7 +6599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0805"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6595,7 +6625,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 80.01 0)
+		(at 138.43 80.01 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6604,7 +6634,7 @@
 		(dnp no)
 		(uuid "9aefb908-976d-4951-8e1f-7acbbc7638bd")
 		(property "Reference" "RC1"
-			(at 142.24 81.28 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +6643,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 142.24 78.74 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6652,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 139.192 80.01 90)
+			(at 136.652 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,16 +6669,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 80.01 0)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% -55℃~+155℃ 300Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Yaego"
-			(at 140.97 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +6688,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402JR-07300RL"
-			(at 140.97 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,17 +6696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% -55℃~+155℃ 300Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 140.97 80.01 0)
+		(property "Package" "0805"
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6722,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 140.97 69.85 0)
+		(at 138.43 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6709,7 +6731,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1ab34db-205a-4833-9f0d-f3b30725f0c9")
 		(property "Reference" "CC1"
-			(at 144.78 67.6909 0)
+			(at 142.24 67.6909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6740,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 144.78 70.2309 0)
+			(at 142.24 70.2309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +6749,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 141.9352 73.66 0)
+			(at 139.3952 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 69.85 0)
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,8 +6766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 140.97 69.85 0)
+		(property "Description" "6.3V B-Package Tantalum Capacitor"
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6857,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 147.32 157.48 270)
+		(at 39.37 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6844,7 +6866,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4c3789b-b9ac-4822-9c52-04048336c8a4")
 		(property "Reference" "JP2"
-			(at 149.86 157.4799 90)
+			(at 41.91 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +6875,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 146.05 156.2101 90)
+			(at 38.1 154.9401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 147.32 157.48 0)
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 157.48 0)
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +6903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 157.48 0)
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6911,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 147.32 157.48 0)
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +7011,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 156.21 0)
+		(at 255.27 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6998,7 +7020,7 @@
 		(fields_autoplaced yes)
 		(uuid "b298e8f4-21a6-4515-bc45-c51feaf2ac65")
 		(property "Reference" "#PWR0123"
-			(at 273.05 162.56 0)
+			(at 255.27 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 161.29 0)
+			(at 255.27 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 156.21 0)
+			(at 255.27 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +7046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 156.21 0)
+			(at 255.27 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 156.21 0)
+			(at 255.27 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 60.96 0)
+		(at 177.8 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7127,7 +7149,7 @@
 		(dnp no)
 		(uuid "b86024a8-69b1-4198-8882-7e4c4b5d3873")
 		(property "Reference" "RR1"
-			(at 189.23 59.69 0)
+			(at 179.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7158,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 189.23 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7167,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 186.182 60.96 90)
+			(at 176.022 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 60.96 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,16 +7184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 187.96 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,8 +7193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 187.96 60.96 0)
+		(property "Manufacturer" ""
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,8 +7202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 187.96 60.96 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,8 +7211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 187.96 60.96 0)
+		(property "Package" "0805"
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7237,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 273.05 152.4 0)
+		(at 255.27 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7232,7 +7246,7 @@
 		(fields_autoplaced yes)
 		(uuid "b89f097c-cdc5-46a3-8b86-2d41fd6f54ca")
 		(property "Reference" "#FLG0102"
-			(at 273.05 150.495 0)
+			(at 255.27 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7255,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 273.05 147.32 0)
+			(at 255.27 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 152.4 0)
+			(at 255.27 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7258,7 +7272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 152.4 0)
+			(at 255.27 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7267,7 +7281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 152.4 0)
+			(at 255.27 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7377,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 137.16 157.48 270)
+		(at 29.21 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7372,7 +7386,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46545f4-3eae-42b6-9b50-54a318dfc6af")
 		(property "Reference" "JP1"
-			(at 139.7 157.4799 90)
+			(at 31.75 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7395,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 135.89 156.2101 90)
+			(at 27.94 154.9401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7405,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 137.16 157.48 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 157.48 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 157.48 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7431,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 137.16 157.48 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 60.96 0)
+		(at 217.17 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7665,7 +7679,7 @@
 		(dnp no)
 		(uuid "efef97fe-5cf5-415a-9679-a824c0c43867")
 		(property "Reference" "RG2"
-			(at 231.14 59.69 0)
+			(at 218.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7688,7 @@
 			)
 		)
 		(property "Value" "DNC"
-			(at 231.14 62.23 0)
+			(at 218.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 228.092 60.96 90)
+			(at 215.392 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 60.96 0)
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,16 +7714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 229.87 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Royalohm"
-			(at 229.87 60.96 0)
+		(property "Description" "62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,8 +7723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF750JTCE"
-			(at 229.87 60.96 0)
+		(property "Manufacturer" ""
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,8 +7732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW 50V ±100ppm/℃ ±1% -55℃~+155℃ 75Ω 0402 Chip Resistor - Surface Mount ROHS "
-			(at 229.87 60.96 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,8 +7741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402"
-			(at 229.87 60.96 0)
+		(property "Package" "0805"
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
